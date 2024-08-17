@@ -1,0 +1,28 @@
+.header {
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 40px;
+  figure {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 55px;
+  }
+  .td-menu {
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    .menu-data {
+      ul {
+        font-size: 20px;
+        li {
+          padding-left: 20px;
+          border-left: 1px solid #fcfcfc;
+        }
+        li:last-child {
+          border-width: 0px;
+        }
+      }
+    }
+  }
+}

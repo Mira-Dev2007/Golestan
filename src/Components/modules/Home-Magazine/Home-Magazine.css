@@ -1,0 +1,2 @@
+@import url(./Home-Magazine/HM-mobile.css);
+@import url(./Home-Magazine/HM-desktop.css) only screen and (min-width:1024px);

@@ -1,0 +1,58 @@
+.Home-Lottery {
+  padding:40px 15px 10px 15px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(204, 204, 204) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  .text-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: right;
+    row-gap: 20px;
+    h2 {
+      font-weight: lighter;
+      font-size: 34px;
+      color: red;
+    }
+    h3 {
+      font-size: 22px;
+      color: #58555b;
+      font-weight: lighter;
+    }
+    p{
+        font-size: 18px;
+        font-weight: lighter;
+        color: #898989;
+    }
+    button{
+        width: fit-content;
+        padding: 12px 24px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: none;
+        transition: 200ms;
+        color: #898989;
+        border: 1px solid #898989;
+    }
+    button:hover{
+        box-shadow: none;
+        background-color: red;
+        color: white;
+    }
+  }
+  .image-data{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+}

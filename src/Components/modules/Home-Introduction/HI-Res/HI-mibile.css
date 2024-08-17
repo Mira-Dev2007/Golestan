@@ -1,0 +1,22 @@
+.Home-intro {
+  background-color: white;
+  .intro,
+  .Intro-product {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: end;
+    text-align: right;
+    padding: 40px 20px;
+    h2 {
+      color: red;
+    }
+    p {
+      color: #898989;
+      font-size: 18px;
+      font-weight: lighter;
+      word-spacing: 5px;
+      line-height: 30px;
+    }
+  }
+}

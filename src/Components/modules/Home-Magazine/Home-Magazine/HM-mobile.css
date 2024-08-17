@@ -1,0 +1,143 @@
+.HomeMagazine {
+  background-color: white;
+  .magazine-description {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    text-align: right;
+    h1 {
+      font-size: 24px;
+      color: red;
+    }
+  }
+  .MagazineData {
+    width: 100%;
+    height: auto;
+    background-color: #cde4b0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding: 30px 0;
+    .MagazineCard {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      width: 340px;
+      height: auto;
+      background-color: white;
+      box-shadow: 0 0 8px 1px #333;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .MagazineCardData {
+        width: 100%;
+        height: auto;
+        text-align: right;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        row-gap: 30px;
+        .MagazineCardTitle {
+          h2 {
+            color: red;
+            font-size: 26px;
+            font-weight: lighter;
+          }
+        }
+        .MagazineCardDescription {
+          p {
+            color: #7c7d7e;
+            font-size: 16px;
+            word-spacing: 3px;
+            line-height: 30px;
+          }
+        }
+        .MagazineCardButton {
+          background-color: transparent;
+          border: 1px solid #c8c8c8;
+          color: #7c7d7e;
+          width: fit-content;
+          height: auto;
+          padding: 12px 25px;
+          font-size: 18px;
+          border-radius: 8px;
+          transition: 200ms ease-in-out;
+          &:hover {
+            background-color: red;
+            border-color: red;
+            color: white;
+          }
+        }
+      }
+      &:nth-last-child(1) {
+        display: none;
+      }
+    }
+  }
+  .MagazineVideoParent {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding: 30px 0;
+    .MagazineVideo {
+      height: auto;
+      width: 320px;
+      border: 2px solid #c8c8c8;
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      row-gap: 20px;
+      .MagazineVideoData {
+        width: 100%;
+        height: auto;
+        text-align: right;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        row-gap: 30px;
+        .MagazineVideoTitle {
+          h2 {
+            color: red;
+            font-size: 26px;
+            font-weight: lighter;
+          }
+        }
+        .MagazineVideoDescription {
+          p {
+            color: #7c7d7e;
+            font-size: 16px;
+            word-spacing: 3px;
+            line-height: 30px;
+          }
+        }
+        .MagazineVideoButton {
+          background-color: transparent;
+          border: 1px solid #c8c8c8;
+          color: #7c7d7e;
+          width: fit-content;
+          height: auto;
+          padding: 12px 25px;
+          font-size: 18px;
+          border-radius: 8px;
+          transition: 200ms ease-in-out;
+          &:hover {
+            background-color: red;
+            border-color: red;
+            color: white;
+          }
+        }
+      }
+      &:nth-last-child(1){
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.Home-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .intro,
+  .Intro-product {
+    width: 700px;
+  }
+}

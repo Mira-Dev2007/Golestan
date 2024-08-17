@@ -1,0 +1,2 @@
+@import url(./Home-Product-Res/HP-mobile.css);
+@import url(./Home-Product-Res/HP-Desktop.css) only screen and (min-width:768px);

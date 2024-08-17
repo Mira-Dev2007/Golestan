@@ -1,0 +1,40 @@
+.header {
+  row-gap: 20px;
+  figure {
+    width: auto;
+    height: auto;
+  }
+  .burger-parent {
+    display: none;
+  }
+  .td-menu {
+    padding-bottom: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .menu-data {
+      ul {
+        display: flex;
+        font-size: 18px;
+        gap: 20px;
+        color: #c7c7c7;
+        direction: rtl;
+
+        li {
+          transition: 200ms;
+          input:checked + label {
+            p {
+              color: #fff;
+            }
+          }
+        }
+        li:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

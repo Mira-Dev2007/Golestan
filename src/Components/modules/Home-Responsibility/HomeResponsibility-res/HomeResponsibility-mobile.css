@@ -1,0 +1,100 @@
+.Responsibility {
+  width: 100%;
+  height: auto;
+  .Responsibility-first {
+    width: 100%;
+    height: 600px;
+    background-color: #105153;
+    position: relative;
+    .Responsibility-first-child {
+      overflow-x: hidden;
+      position: absolute;
+      top: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      h2 {
+        text-align: center;
+        color: #d5ece1;
+        font-size: 20px;
+        font-weight: lighter;
+        padding: 20px 0;
+      }
+      div {
+        width: 100%;
+        padding: 20px 0;
+        border-top: 1px solid #07787c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        p {
+          color: #00d8df;
+          font-size: 22px;
+          font-weight: lighter;
+          span {
+            font-size: 30px;
+            color: #009da2;
+            font-weight: lighter;
+            display: inline;
+            padding: 0 6px 0 0;
+            border: 0;
+          }
+        }
+        h3 {
+          color: #bcbec0;
+          font-size: 20px;
+          font-weight: lighter;
+        }
+      }
+      img {
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+  .Responsibility-second {
+    padding-top: 120px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    .Responsibility-second-child {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      padding: 20px;
+      row-gap: 30px;
+      text-align: right;
+      h3 {
+        color: red;
+        font-size: 22px;
+      }
+      p {
+        color: #818588;
+        font-size: 18px;
+        word-spacing: 10px;
+        font-weight: lighter;
+        line-height: 30px;
+      }
+      button {
+        padding: 12px 24px;
+        background-color: white;
+        color: #7c7d7e;
+        border: 1px solid #bcbec0;
+        border-radius: 8px;
+        transition: 200ms;
+        font-size: 20px;
+        &:hover {
+          background-color: red;
+          color: white;
+          border-color: red;
+        }
+      }
+    }
+  }
+}

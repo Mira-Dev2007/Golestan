@@ -1,0 +1,19 @@
+.footer{
+    .foot{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        .tea{
+            width: 150px;
+        }
+    }
+    .final{
+        h3{
+            font-size: 24px;
+        }
+        p{ 
+            font-size: 18px;
+        }
+    }
+}

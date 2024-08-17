@@ -1,0 +1,8 @@
+.Home-Lottery {
+    padding: 40px ;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+    row-gap: 20px;
+  }
+  

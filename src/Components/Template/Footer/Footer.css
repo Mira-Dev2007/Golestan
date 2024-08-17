@@ -1,0 +1,2 @@
+@import url(./Footer-Res/Footer-mobile.css);
+@import url(./Footer-Res/Footer-desktop.css) only screen and (min-width:768px);

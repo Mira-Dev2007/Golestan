@@ -1,0 +1,14 @@
+.Responsibility {
+  .Responsibility-first {
+    border-bottom: 30px solid #e9d69f;
+    img {
+      width: 395px;
+    }
+  }
+  .Responsibility-second {
+    .Responsibility-second-child {
+        padding: 40px;
+      width: 700px;
+    }
+  }
+}
